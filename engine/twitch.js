@@ -1,11 +1,11 @@
 import fetch from "node-fetch";
-import json  from '../config.json' assert { type: "json" };
+//import json  from '../config.json' assert { type: "json" };
 
 const options = {
     method: 'GET',
     headers: {
-        'Client-Id': json.CLIENT_KEY,
-        Authorization: json.AUTH_KEY
+        'Client-Id': process.env.CLIENT_KEY,
+        Authorization: process.env.AUTH_KEY
     }
 };
 
