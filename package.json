@@ -6,6 +6,7 @@
   "name": "MozGrabarz",
   "version": "1.0.0",
   "type": "module",
+  "engines": {"node":"16.x"},
   "dependencies": {
     "cli-color": "^2.0.3",
     "cors": "^2.8.5",
