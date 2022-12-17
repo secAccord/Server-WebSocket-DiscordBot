@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-//import json  from '../config.json' assert { type: "json" };
+
 
 const options = {
     method: 'GET',
