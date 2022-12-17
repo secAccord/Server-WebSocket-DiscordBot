@@ -1,5 +1,5 @@
 import server from "./engine/engine.js";
-const PORT = 3000;
+const PORT = 443;
 server.listen(PORT,()=>{
     console.table({
         "Express App": `http://localhost:${PORT}`,
