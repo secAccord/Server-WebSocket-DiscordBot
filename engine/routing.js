@@ -7,6 +7,6 @@ import __dirname from "../dirnameFix.js"
 const app = express();
 app.use(cors())
 
-//app.get('/',(req, res) => res.send("es"))
-app.use('/',express.static(path.join(__dirname,'/public/')))
+app.get('/',(req, res) => res.send("TESTED"))
+//app.use('/',express.static(path.join(__dirname,'/public/')))
 export default app;
